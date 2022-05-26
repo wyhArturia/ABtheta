@@ -4,4 +4,4 @@ This is for our paper on A/B tests and simultaneous treatment parameter tuning. 
 
 The file "AB_theta_1d.ipynb" is the code for the numerical experiment in Section 6, and the file "AB_theta_multi_d.ipynb" is the code for the numerical experiment in Appendix.
 
-The code is not designed for parallel computing, so it may take several hours for large scale simulations. Be careful if you want to do so.
+The code is not designed for parallel computing, so it may take several hours for large scale simulations. Be careful if you want to do so, as a friendly reminder.
