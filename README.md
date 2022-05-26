@@ -1,9 +1,7 @@
-# ABtheta
+# Code for Paper on Adaptive A/B Tests and Simultaneous Treatment Parameter Tuning
 
-This is for our paper AB theta test.
+This is for our paper on A/B tests and simultaneous treatment parameter tuning. Here is the abstract: A/B tests provide statistically principled guarantees to assert whether a treatment plan is significantly better than a control plan. In a number of applications, the treatment plan is not a single plan, but is a infinite continuum of plans indexed by a continuous treatment parameter. As such, the experimenter not only needs to test whether the treatment plan is better than the control, but also needs to recommend a good choice of value for the treatment parameter to use for the treatment plan. We provide a new zeroth-order algorithm to fulfill these dual needs. The algorithm outputs an estimator for the optimizer, an estimator for the optimal objective function value, and an asymptotic distribution of the estimator for the optimal objective function value. We prove that the estimator for the optimal objective function value provided by the algorithm satisfies a central limit theorem with the best achievable variance, so that the maximum statistical efficiency is achieved.  We then briefly discuss the extension of the proposed algorithm to a practically relevant scenario with small function derivatives. A numerical experiment is conducted to illustrate the proved optimality and central limit theorem. 
 
-The file AB_theta_1d.ipynb is for the first numerical experiment in our paper, and the file AB_theta_multi_d.ipynb is for the second.
+The file "AB_theta_1d.ipynb" is the code for the numerical experiment in Section 6, and the file "AB_theta_multi_d.ipynb" is the code for the numerical experiment in Appendix.
 
 The code is not designed for parallel computing, so it may take several hours for large scale simulations. Be careful if you want to do so.
-
-To be continued.
